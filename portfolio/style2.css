@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(135deg,#0f0f06,#f6f8f9);
+}
+.n{
+    display: flex;
+}
+#n1{
+    border: 5px solid grey;
+    border-radius: 20px;
+    transition: 1s;
+    background-color: rgb(215, 210, 210);
+    height: 260px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-right: 10px;
+    transition: 1s;
+    font-size: 20px;
+}
+#n1 h1:hover{
+    transform: scale(1.4) ;
+    transform-origin: left;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+}
+#n2{
+    height: 300px;
+    width: 800px;
+    border-radius: 25%;
+    background-image: url(nishpic.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+#n2:hover{
+    transform: scale(1.5);
+    z-index: 60;
+}
+.o{
+    font-size: large;
+    background-color: rgb(215, 210, 210);
+    border: 5px solid grey;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    transition: 1s;
+}
+.o h1:hover{
+    transform: scale(1.4) ;
+    transform-origin: left;
+}
+
+.p{
+    font-size: large;
+    background-color: rgb(215, 210, 210);
+    border: 5px solid grey;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    transition: 1s;
+}
+.p h1:hover{
+    transform: scale(1.4) ;
+    transform-origin: left;
+}
+.resume{
+    background-color: rgb(215, 210,210);
+    margin-top: 25px;
+    border: 5px solid grey;
+    padding-left: 35px;
+    transition: 1s;
+    padding-bottom: 25px;
+}
+#resume{
+    display: flex;
+    transition: 1s;
+}
+
+.contact-section {
+    background-color: rgb(215, 210, 210); /* Light gray background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid gray;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color for contrast */
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .contact-section a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  #linked{
+    padding-bottom: 25px;
+  }
